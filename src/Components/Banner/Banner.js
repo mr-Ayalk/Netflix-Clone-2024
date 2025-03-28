@@ -4,6 +4,8 @@ import "./Banner.css";
 import requests from "../../utils/requests"
 const Banner = () => {
   const [movie, setMovie] = useState({});
+  
+   
 
   useEffect(() => {
     const fetchMovie = async () => {
@@ -41,7 +43,7 @@ const Banner = () => {
         </h1>
 
         <div className="banner_buttons">
-          <button className="banner_button play">Play</button>
+          <button className="banner_button play" >Play</button>
           <button className="banner_button my-list">My List</button>
           
         </div>

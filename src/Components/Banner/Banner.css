@@ -8,7 +8,7 @@
 .banner_contents{
     margin-left: 30px;
     padding-top: 300px;
-    height: 190px  !important;
+    /* height: 190px  !important; */
 }
 .banner_title{
     font-size: 3rem;
@@ -23,7 +23,7 @@
     font-size: 1rem;
     max-width: 360px;
     height: 80px;
-    align-items: center;
+    align-items: center ;
 }
 .banner_button{
     cursor: pointer
@@ -54,6 +54,6 @@
 .banner_fadeBottom{
     height: 40vh;
     background-image: linear-gradient(
-        180deg ,transparent ,rgb(37,37,37,0.91), #111
+        180deg ,transparent ,rgba(37, 37, 37, 0.041), #111111
     );
 }
